@@ -201,7 +201,15 @@ tr:nth-child(odd) {
 }
 
 .center-border {
-    border-right: 1px solid rgb(184, 180, 180);
+    border-right: 1px solid rgb(200, 200, 200);
+}
+
+tr {
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+tr:last-child {
+    border-bottom: none;
 }
 
 .side-right-info a {
